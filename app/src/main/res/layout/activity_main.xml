@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xiaofei_dev.github.simpleimage.ui.MainActivity">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_marginTopPercent="4%w"
+        app:layout_marginBottomPercent="4%w"
+        app:layout_marginLeftPercent="4%w"
+        app:layout_marginRightPercent="4%w">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:layout_widthPercent = "23.75%w"
+            app:layout_heightPercent = "23.75%w"
+            app:layout_marginRightPercent="4%w"
+            app:srcCompat="@drawable/drawable1"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:layout_widthPercent = "23.75%w"
+            app:layout_heightPercent = "23.75%w"
+            app:layout_marginRightPercent="4%w"
+            app:srcCompat="@drawable/im1"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:layout_widthPercent = "23.75%w"
+            app:layout_heightPercent = "23.75%w"
+            app:layout_marginRightPercent="4%w"
+            app:srcCompat="@drawable/im2"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:layout_widthPercent = "23.75%w"
+            app:layout_heightPercent = "23.75%w"
+            app:srcCompat="@drawable/im3"/>
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_marginBottomPercent="4%w"
+        app:layout_marginLeftPercent="4%w"
+        app:layout_marginRightPercent="4%w">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:layout_widthPercent = "23.75%w"
+            app:layout_heightPercent = "23.75%w"
+            app:layout_marginRightPercent="4%w"
+            app:srcCompat="@drawable/im4"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:layout_widthPercent = "23.75%w"
+            app:layout_heightPercent = "23.75%w"
+            app:layout_marginRightPercent="4%w"
+            app:srcCompat="@drawable/im5"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:layout_widthPercent = "23.75%w"
+            app:layout_heightPercent = "23.75%w"
+            app:layout_marginRightPercent="4%w"
+            app:srcCompat="@drawable/im6"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:layout_widthPercent = "23.75%w"
+            app:layout_heightPercent = "23.75%w"
+            app:srcCompat="@drawable/im7"/>
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_marginBottomPercent="4%w"
+        app:layout_marginLeftPercent="4%w"
+        app:layout_marginRightPercent="4%w">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:layout_widthPercent = "23.75%w"
+            app:layout_heightPercent = "23.75%w"
+            app:layout_marginRightPercent="4%w"
+            app:srcCompat="@drawable/im8"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:layout_widthPercent = "23.75%w"
+            app:layout_heightPercent = "23.75%w"
+            app:layout_marginRightPercent="4%w"
+            app:srcCompat="@drawable/im9"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:layout_widthPercent = "23.75%w"
+            app:layout_heightPercent = "23.75%w"
+            app:layout_marginRightPercent="4%w"
+            app:srcCompat="@drawable/im10"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:layout_widthPercent = "23.75%w"
+            app:layout_heightPercent = "23.75%w"
+            app:srcCompat="@drawable/im10"/>
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_marginBottomPercent="4%w"
+        app:layout_marginLeftPercent="4%w"
+        app:layout_marginRightPercent="4%w">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:layout_widthPercent = "23.75%w"
+            app:layout_heightPercent = "23.75%w"
+            app:layout_marginRightPercent="4%w"
+            app:srcCompat="@drawable/im10"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:layout_widthPercent = "23.75%w"
+            app:layout_heightPercent = "23.75%w"
+            app:layout_marginRightPercent="4%w"
+            app:srcCompat="@drawable/im10"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:layout_widthPercent = "23.75%w"
+            app:layout_heightPercent = "23.75%w"
+            app:layout_marginRightPercent="4%w"
+            app:srcCompat="@drawable/im10"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            app:layout_widthPercent = "23.75%w"
+            app:layout_heightPercent = "23.75%w"
+            app:srcCompat="@drawable/drawable1"/>
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+    
+
+</com.zhy.android.percent.support.PercentLinearLayout>

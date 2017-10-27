@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.zhy.android.percent.support.PercentFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="40dp"
+        android:scaleType="fitCenter"
+        app:layout_heightPercent="50%w"
+        app:layout_widthPercent="50%w"/>
+
+</com.zhy.android.percent.support.PercentFrameLayout>
+
